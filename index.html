@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundify-Your favourite music player</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        
+        <ul>
+            <li class="brand"><img src="./logo.png" alt="Soundify" srcset=""><span>Soundify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+        
+    </nav>
+
+    <div class="container">
+       <div class="songlist">
+            <h1>Best of Arijit Singh</h1>
+            <div class="songItemContainer">
+                <div>
+                    <div class="songItem">
+                        <img  alt="1" srcset="">
+                        <span class="songName"><b>Phir Aur Kya Chaiye</b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>03:33  </b><i id="0" class="fa-solid songItemPlay songItemPause fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img  alt="1" srcset="">
+                        <span class="songName"></span><b></b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>05:23  </b><i id="1" class="fa-solid songItemPlay songItemPause fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" srcset="">
+                        <span class="songName"><b>Phir Aur Kya Chaiye</b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>05:51  </b><i id="2" class="fa-solid songItemPlay songItemPause fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" srcset="">
+                        <span class="songName"><b>Phir Aur Kya Chaiye</b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>05:30  </b><i id="3" class="fa-solid songItemPlay songItemPause fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" srcset="">
+                        <span class="songName"><b>Phir Aur Kya Chaiye</b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>03:28  </b><i id="4" class="fa-solid songItemPlay songItemPause fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img  alt="1" srcset="">
+                        <span class="songName"><b>Phir Aur Kya Chaiye</b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>03:24  </b><i id="5" class="fa-solid songItemPlay songItemPause fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img  alt="1" srcset="">
+                        <span class="songName"><b>Phir Aur Kya Chaiye</b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>03:22  </b><i id="6" class="fa-solid songItemPlay songItemPause fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img  alt="1" srcset="">
+                        <span class="songName"><b>Phir Aur Kya Chaiye</b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>03:58  </b><i id="7" class="fa-solid songItemPlay songItemPause fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img  alt="1" srcset="">
+                        <span class="songName"><b>Phir Aur Kya Chaiye</b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>03:10  </b><i id="8" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img  alt="1" srcset="">
+                        <span class="songName"><b>Phir Aur Kya Chaiye</b></span>
+                        <span class="songlistplay"><span class="timestamp"><b>04:27  </b><i id="9" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+           <!-- fontawesome icons-->
+           <i  class="fa-solid fa-3x fa-backward " id="previous" ></i>
+           <i  class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+           <i  class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="./playing.gif" width="42px" alt=""  id="gif"><span id="masterSongName">Phir Aur kya Chaiye</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3ba79f6550.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
